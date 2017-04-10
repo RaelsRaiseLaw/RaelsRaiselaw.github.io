@@ -1,0 +1,50 @@
+html, body {width: 100%; height: 100%; margin:0;}
+
+.Container {
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 700px;
+    height: 250px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+p {
+    margin: 1px;
+    margin-bottom: 8px;
+    text-align: justify;
+}
+
+ul {
+    margin-top: 4px;
+    padding-top: 8px;
+    padding-left: 0px;
+    text-align: center;
+    clear: both;
+}
+
+li 
+{
+    list-style: none;
+    display: inline;
+}
+
+.logo 
+{
+    float: left;
+    margin: 3px;
+    margin-right: 10px;
+    margin-top: 0;
+}
